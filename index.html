@@ -11,14 +11,14 @@
 </head>
 
 <body>
-    <!-- Nav -->
+    <!-- NAV -->
     <header>
 
-        <div class="container-fluid" style="background-image: url(assets/img/fundo.jpg); color: white;">
-            <div class="d-flex fixed-top-md justify-content-around px-3">
+        <div style="background-image: url(assets/img/fundo.jpg); color: white;">
+            <div class="d-flex fixed-top-md justify-content-around px-3 font-weight-light">
                 <nav class=" navbar navbar-expand-md flex-sm-column mt-3 py-1">
                     <ul class="list-unstyled">
-                        <li class="h5">Fernanda Ingrid</li>
+                        <li class="h5 ">Fernanda Ingrid</li>
                         <li>Psicóloga Clínica</li>
                     </ul>
                 </nav>
@@ -27,15 +27,8 @@
                         <li class="nav-item px-3 ">
                             <a class="nav-link text-reset " href="#home " style="color: white;">HOME</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              ATUAÇÃO
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown">
-                                <a class="dropdown-item" href="https://www.instagram.com/_nanda_ingrid/">ATENDIMENTO ONLINE</a>
-                                <a class="dropdown-item" href="https://www.facebook.com/fernanda.ingrid.1460">PSICOTERAPIA</a>
-                                <a class="dropdown-item" href="https://github.com/developer-fernanda">PLANTÃO PSICOLÓGICO</E-mail></a>
-                            </div>
+                        <li class="nav-item px-3 ">
+                            <a class="nav-link text-reset " href="#home " style="color: white;">SOBRE</a>
                         </li>
                         <li class="nav-item px-3 ">
                             <a class="nav-link " href="#projetos " style="color: white;">REEMBOLSO</a>
@@ -48,237 +41,143 @@
                 <div class="navbar navbar-expand-md flex-sm-column d-flex justify-content-center">
                     <ul class="navbar-nav mx-auto " id="navegacao ">
                         <li class="nav-item px-3 ">
-
-                            <div class="btn btn-outline-light h5 "> <i class="fab fa-whatsapp "> WHATSAPP</i></div>
-
+                            <div class="btn btn-outline-light h5 "> <i class="fab fa-whatsapp "></i> WHATSAPP</div>
                         </li>
-
                     </ul>
                 </div>
             </div>
             <div class="row" id="home">
-                <div class="col-md text-center mt-5">
-                    <h1> Qualquer árvore que queira tocar os céus precisa ter raízes tão profundas a ponto de tocar os infernos.</h1>
+                <div class="col-md text-center mt-5 px-5">
+                    <h1 class="font-weight-light "> Qualquer árvore que queira tocar os céus precisa ter raízes tão profundas a ponto de tocar os infernos.</h1>
                     <h5> Carl Jung </h5>
-                    <div class="btn btn-outline-light h5 mt-5"> <i class="fab fa-whatsapp "> AGENDE SEU ATENDIMENTO </i></div>
+                    <div class="btn btn-outline-light h5 mt-5"> <i class="fas fa-edit m-2"> </i>AGENDE SEU ATENDIMENTO </div>
                 </div>
             </div>
-
         </div>
-
-
     </header>
 
     <!--CONTAINER - BLOCO DE ALINHAMENTO-->
 
-    <div class="container">
+    <div class="container-fluid">
 
         <!--HOME-->
-        <section id="home">
+        <section id="home" style="background-color: rgba(128, 128, 128, 0.144);">
             <div class="row" id="home">
-                <div class="col-md-6 text-center mt-5">
-                    <br><br>
-                    <h1 class="mt"> Sua jornada de saude mental começa aqui!</h1>
+                <div class="col-md text-center mt-5">
+                    <br><br><br>
+                    <h1 class="mt"> Começe hoje sua jornada de Saúde Emocial!</h1>
                 </div>
-                <div class="col-md-6 text-center">
-                    <h1> <i class="fas fa-edit mt-5"></i></h1>
-                    <h1> FERNANDA INGRID </h1>
-                    <p> Psicóloga Clínica | 06/124806 </p>
-                    <p> Atendimento Online </p>
+                <div class="col-md text-center mt-4 ">
+                    <!-- CARROSEL -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"> </li>
+                        </ol>
+                        <div class="carousel-inner" style="height: 350px;">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/img/fundo.4.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block" style="color: rgba(0, 0, 0, 0.836);">
+                                    <h5> Psicoterapia</h5>
+                                    <p>Psicóloga Fernanda Ingrid</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/fundo.2.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block" style="color:black">
+                                    <h5> Atendimento Online </h5>
+                                    <p>Psicóloga Fernanda Ingrid</p>
+                                </div>
+                            </div>
 
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/fundo.3.jpg" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block" style="color: rgba(0, 0, 0, 0.836);">
+                                    <h5> Plantão Psicológico </h5>
+                                    <p>Psicóloga Fernanda Ingrid</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Sobre -->
 
-        <section class="mt-4">
-            <div class="row text-center">
-                <div class="col-12">
-                    <div class="d-flex justify-content-center align-items-center" style="background-color: #4682B4; color: white; height: 70px;">
-                        <i class="fas fa-user-graduate h1"></i>
-                        <h3 class="px-3"> SOBRE MIM </h3>
-                    </div>
-
+        <!--VAMOS CONVERSAR-->
+        <section id="contato" class="text-end" style="background-color: rgba(128, 128, 128, 0.144);">
+            <div class=" row ">
+                <div class="col-md-8 ">
+                    <h2 class="m-5 pl-5 "> <i class="fas fa-comments "></i> Vamos conversar? Agende sua consulta. </h2>
                 </div>
-            </div>
-            <div class="row " id="sobre">
-                <div class="col-md-4 text-center ">
-                    <img src="assets/img/fernanda.jpg " alt="Fernanda Ingrid " class="img-fluid p-1 m-3 bg-white " style="width:250px;">
-                </div>
-                <div class=" col-md-8 mt-4 font-weight-light text-end">
-                    <h5> Fernanda Ingrid | CRP 06 </h5>
-                    <p> Graduada em Psicologia pela Universidade Paulista (UNIP), 2014.</p>
-                    <p> Desde 2015 atua em consultório, utilizando a abordagem fenomenológica existencial.</p>
-                    <p> Atendimento para adolescentes, adultos e casais.</p>
-                    <p> Psicoterapia individual, atendimento online e plantão psicológico.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- ATUAÇÃO -->
-        <section class="text-center" id="atuacao" style="background-color: #4682B4;">
-            <div class="row">
-                <div class="col-12 m-4" style="color: white;">
-                    <h3> ATUAÇÃO </h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md mb-5 mx-2" id="card">
-                    <div class="card  card-body text-center font-weight-light" id="atendimento">
-                        <i class="fas fa-wifi h1" style="color: #4682B4;"></i>
-                        <h4>ATENDIMENTO ONLINE</h4>
-                        <hr class="my-4 " />
-                        <p> Sem trânsito, no conforto da sua casa ou outro lugar que tenha acesso a internet. </p>
-                    </div>
-                </div>
-                <div class="col-md mb-5 mx-2" id="card">
-                    <div class="card card-body text-center font-weight-light" id="psicoterapia">
-                        <i class="fas fa-couch h1" style="color: #4682B4;"></i>
-                        <h4>PSICOTERAPIA</h4>
-                        <hr class="my-4 " />
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
-                <div class="col-md mb-5 mx-2" id="card">
-                    <div class="card  card-body text-center font-weight-light" id="atendimento">
-                        <i class="fas fa-comment-dots h1" style="color: #4682B4;"></i>
-                        <h4>PLANTÃO PSICOLÓGICO</h4>
-                        <hr class="my-4 " />
-                        <p> Sem trânsito, no conforto da sua casa ou outro lugar que tenha acesso a internet. </p>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="d-flex justify-content-center align-items-around">
-                <div class="m-3 w-100" id="card">
-                    <div class="card  card-body text-center font-weight-light" id="atendimento">
-                        <h1> <i class="fas fa-wifi"></i></h1>
-                        <h4>ATENDIMENTO ONLINE</h4>
-                        <hr class="my-4 " />
-                        <p> Sem trânsito, no conforto da sua casa ou outro lugar que tenha acesso a internet. </p>
-                    </div>
-                </div>
-                <div class="m-3 w-100" id="card">
-                    <div class="card card-body text-center font-weight-light" id="psicoterapia">
-                        <h1><i class="fas fa-couch "></i></h1>
-                        <h4>PSICOTERAPIA</h4>
-                        <hr class="my-4 " />
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
-                <div class="m-3 w-100" id="card">
-                    <div class="card  card-body text-center font-weight-light" id="atendimento">
-                        <h1> <i class="fas fa-comment-dots"></i></h1>
-                        <h4>PLANTÃO PSICOLÓGICO</h4>
-                        <hr class="my-4 " />
-                        <p> Sem trânsito, no conforto da sua casa ou outro lugar que tenha acesso a internet. </p>
-                    </div>
-                </div>
-            </div> -->
-
-        </section>
-
-        <section id="contato" class="text-center">
-            <div class="row">
-                <div class="col-md-10">
-                    <h1 class="m-5"> <i class="fas fa-comments "></i> Vamos conversar? Agende sua consulta. </h1>
-                </div>
-                <div class="col-md-2">
+                <div class="col-md-4 ">
                     <p class="m-5 ">
-                        <a href="https://github.com/developer-fernanda" style="color: black;">
-                            <div class="btn btn-outline-dark"> <i class="fab fa-whatsapp"> WHATSAPP</i></div>
+                        <a href="https://github.com/developer-fernanda " style="color: white; ">
+                            <div class="btn bg-dark "> <i class="fab fa-whatsapp "> WHATSAPP</i></div>
                         </a>
                     </p>
-
                 </div>
             </div>
         </section>
 
+        <!-- FOOTER-->
+        <footer>
+            <div class="bg-dark p-4" style="color:white;">
+                <div class="row">
+                    <div class="col-md-4 offset-md-1">
+                        <nav>
+                            <ul class="list-unstyled text-end font-weight-light">
+                                <li class="h5">Fernanda Ingrid</li>
+                                <li class="h6" style="color: #A9A9A9;">Psicóloga Clínica | 06/124806</li>
+                                <li> <i class="fab fa-whatsapp "></i> + 55 (11) 99505-6742 </i>
+                                </li>
+                                <li> <i class="fas fa-envelope font-weight-light"> fernandaingrid.psicologia@gmail.com </i></li>
+                                <li>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-facebook pl-2"></i>
+                                    <i class="fab fa-linkedin pl-2 "></i>
+                                    <i class="fab fa-github pl-2 "></i>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
 
+                    <div class="col-md-4">
+                        <nav>
+                            <ul class="list-unstyled text-end font-weight-light">
+                                <li class="h5">Horários de atendimentos</li>
+                                <li> Segunda à Sexta </li>
+                                <li> 09h às 18h </li>
+                            </ul>
+                        </nav>
+                    </div>
 
-    </div>
+                    <div class="col-md-3">
+                        <nav>
+                            <ul class="list-unstyled text-end font-weight-light">
+                                <li class="h5">Acesse</li>
+                                <li><a href="#home" style="text-decoration:none; color:white">Home</a> </li>
+                                <li><a href="#sobre" style="text-decoration:none; color:white">Atuação</a> </li>
+                                <li><a href="#projetos" style="text-decoration:none; color:white">Reembolso</a> </li>
+                                <li><a href="#contatos" style="text-decoration:none; color:white">Contatos</a> </li>
+                            </ul>
+                        </nav>
+                    </div>
 
-
-
-
-
-
-
-
-
-    </div>
-
-    <!-- Rodape-->
-    <footer>
-        <div class="container-fluid bg-dark p-4" style="color:white;">
-            <div class="row">
-                <div class="col-md-4 offset-md-1">
-                    <nav>
-                        <ul class="list-unstyled text-end font-weight-light">
-                            <li class="h5">Fernanda Ingrid</li>
-                            <li class="h6" style="color: #A9A9A9;">Psicóloga Clínica | 06/124806</li>
-                            <li> <i class="fab fa-whatsapp "></i> + 55 (11) 99505-6742 </i>
-                            </li>
-                            <li> <i class="fas fa-envelope font-weight-light"> fernandaingrid.psicologia@gmail.com </i></li>
-                            <li>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-facebook pl-2"></i>
-                                <i class="fab fa-linkedin pl-2 "></i>
-                                <i class="fab fa-github pl-2 "></i>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
-
-                <div class="col-md-4">
-                    <nav>
-                        <ul class="list-unstyled text-end font-weight-light">
-                            <li class="h5">Horários de atendimentos</li>
-                            <li> Segunda à Sexta </li>
-                            <li> 09h às 18h </li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <div class="col-md-3">
-                    <nav>
-                        <ul class="list-unstyled text-end font-weight-light">
-                            <li class="h5">Acesse</li>
-                            <li><a href="#home" style="text-decoration:none; color:white">Home</a> </li>
-                            <li><a href="#sobre" style="text-decoration:none; color:white">Atuação</a> </li>
-                            <li><a href="#projetos" style="text-decoration:none; color:white">Reembolso</a> </li>
-                            <li><a href="#contatos" style="text-decoration:none; color:white">Contatos</a> </li>
-                        </ul>
-                    </nav>
-                </div>
-
+                <p class="font-weight-light text-center">Copyright 2021 | Fernanda Ingrid. Todos os direitos reservados. </p>
             </div>
-            <p class="font-weight-light text-center">Copyright 2021 | Fernanda Ingrid. Todos os direitos reservados. </p>
-    </footer>
-
-    <div class="container ">
-
-        <i class="fab fa-whatsapp "></i>
-        <i class="fab fa-facebook "></i>
-        <i class="fab fa-instagram "></i>
-        <i class="fab fa-github "></i>
-        <i class="fab fa-linkedin "></i>
-        <i class="fas fa-home "></i>
-        <i class="fas fa-clipboard-check "></i>
-        <i class="fas fa-comments "></i>
-        <i class="fas fa-envelope "></i>
-        <i class="fas fa-couch "></i>
-        <i class="fas fa-edit "></i>
-        <i class="fas fa-graduation-cap "></i>
-        <i class="fas fa-user-graduate "></i>
-        <i class="fas fa-pencil-alt "></i>
-        <i class="fas fa-paperclip "></i>
-        <i class="fas fa-hand-holding-usd "></i>
-        <i class="fas fa-signal "></i>
-
+        </footer>
     </div>
-
-
 
     <script src="assets/jquery-3.5.1.min.js "></script>
     <script src="assets/popper.min.js "></script>

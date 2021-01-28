@@ -1,0 +1,11 @@
+header {
+    color: #D3D3D3;
+}
+
+.row>.col-md>.card>.h1>.i>[class^=fas] {
+    color: #4682B4;
+}
+
+.row>.col[class^=h3] {
+    color: white;
+}

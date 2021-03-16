@@ -78,14 +78,6 @@ h5>[class^=far] {
     cursor: pointer;
 }
 
-.ocultado {
-    display: none;
-}
-
-.mostrar {
-    display: flex;
-}
-
 .leva-ao-topo>i {
     color: #20B2AA;
     font-size: 17px;

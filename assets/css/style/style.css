@@ -168,12 +168,17 @@ h5>[class^=far] {
     color: #20B2AA;
 }
 
+.section_form {
+    background-color: #20B2AA;
+    width: 100px;
+}
+
 
 /*FOOTER*/
 
-#footer {
+footer {
+    background-color: rgb(0, 0, 0);
     color: white;
-    background-color: rgba(0, 0, 0, 0.781);
 }
 
 

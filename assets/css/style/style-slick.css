@@ -122,13 +122,3 @@
 /*   End of Large Screens*/
 
 
-/* Extra Large Screens ***********************************************************************/
-
-@media only screen and (min-width: 1441px) {
-    .carousel-salas {
-        width: 1440px;
-    }
-}
-
-
-/* End of Extra Large Screens*/

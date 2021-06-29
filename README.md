@@ -4,6 +4,7 @@
   <li> Header - Link redes sociais; </li>
   <li> Carousel - fotos e texto;</li>
   <li> Sobre;</li>
+  <li> Reembolso de convênio;</li>
   <li> Formulário de Contato;</li>
   <li> Footer.</li>
 </ul>
@@ -19,9 +20,12 @@
 <h4> SOBRE </h4>
 <img src="img-site/3.png">
 <br>
-<h4> CONTATO </h4>
+<h4> REEMBOLSO DE CONVÊNIO </h4>
 <img src="img-site/4.png">
 <br>
-<h4> FOOTER </h4>
+<h4> CONTATO </h4>
 <img src="img-site/5.png">
+<br>
+<h4> FOOTER </h4>
+<img src="img-site/6.png">
 <br>
